@@ -18,6 +18,9 @@ namespace A133590.Ejercicio19
             }
 
             Console.WriteLine($"Parte entera del número: {Math.Floor(numero)}");
+
+            Console.WriteLine("Presione cualquier tecla para continuar..");
+            Console.ReadKey();
         }
     }
 }
